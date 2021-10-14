@@ -1,8 +1,8 @@
-# mmRAPID Code and Data Repository
-Publicly released software for the mmRAPID (mmW Random Antenna weight vector based Path Identification without Dictionary) algorithm published in mmNets 2020
+# Multipath Machine Learning Assisted Beam Alignment Code and Data Repository
+Publicly released software for the multipath machine learning assisted beam alignment algorithms and experiments published in Globecom 2021
 
-See the article in the ACM mmNets 2020 procedings or on ArXiv:
-https://arxiv.org/abs/2007.12060
+See the pre-print article on arXiv: https://arxiv.org/abs/2109.14689
+
 
 ### Directory Structure - Highlights of the Important Files
 data - Note that different dates refer to different capture times (with a different TX power and thus different SNR)
@@ -25,3 +25,6 @@ pattern_mismatch<_quan>.m - Antenna pattern mismatch evaluation due to hardware 
 pRX.. .m - RSS-based beam training with various methods compared (MATLAB simulations)
 
 
+### See also
+mmRAPID original code repo: https://github.com/bdomae/mmRAPID
+mmRAPID original paper: https://doi.org/10.1145/3412060.3418432
